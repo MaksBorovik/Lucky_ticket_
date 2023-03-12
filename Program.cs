@@ -23,8 +23,8 @@ namespace Щасливий_квиток_2
                     j++;
                 }
                     
-                int left = (mas[0] - '0' + mas[1] - '0' + mas[2] - '0');
-                int right = (mas[3] - '0' + mas[4] - '0' + mas[5] - '0');
+                int left = (mas[0]  + mas[1] + mas[2] );
+                int right = (mas[3] + mas[4] + mas[5] );
                 if (left == right)
                 {
                     counter++;
